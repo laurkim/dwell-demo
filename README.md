@@ -4,9 +4,7 @@
 ## Description
 This is a demo for Dwell, an application built upon a React/Redux front end and Ruby on Rails back end. Dwell allows users to book an hour-long workspace to maximize productivity at any WiFi cafe in Manhattan.
 
-The live application can be found [here](https://dwell-here.herokuapp.com/).
-
-#### If the demo gifs are running at a slower speed, please reference the similarly named files inside the directory labeled *demo-material*.
+**The live application can be found [here](https://dwell-here.herokuapp.com/).**
 
 ## Core Features
 1. [Display of Existing Cafes in Manhattan](#display-of-exisiting-cafes-in-manhattan)
