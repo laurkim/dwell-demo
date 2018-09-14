@@ -1,4 +1,4 @@
-# Sonder
+# Dwell
 ![Dwell-Splash](demo-material/dwell-splash.png)
 
 ## Description
@@ -11,7 +11,7 @@ The live application can be found [here](https://dwell-here.herokuapp.com/).
 ## Core Features
 1. [Display of Existing Cafes in Manhattan](#display-of-exisiting-cafes-in-manhattan)
 2. [Ability to Book a Workspace](#ability-to-book-a-workspace)
-3. [Compiled Booking History](#compiled-booking-history)
+3. [Compiled User Booking History](#compiled-user-booking-history)
 4. [Yelp Integration](#yelp-integration)
 5. [Create and View Favorite Workspaces](#create-and-view-favorite-workspaces)
 6. [User Authentication and Authorization](#user-authentication-and-authorization)
@@ -27,7 +27,7 @@ Following user authentication and authorization, a user can click on the button 
 
 ![Dwell-Book-Workspace](demo-material/dwell-book-workspace.gif)
 
-### Compiled Booking History
+### Compiled User Booking History
 Using the hidden menu bar, a user can toggle in the menu bar and click on the "Bookings" URL, which will redirect the user to the page that will display all of the past and upcoming bookings the user has at all of the workspaces in the database.
 
 ![Dwell-Bookings](demo-material/dwell-bookings.gif)
@@ -52,6 +52,6 @@ Should a user of the application not yet have an account, they can follow the pr
 ![Dwell-Registration](demo-material/dwell-registration.gif)
 
 ### Dynamic Routing
-The menu at the side of the home page has links to various pages in the application, including a page for all the workspaces and a page for all of the bookings. All links will change the URL in the browser and render the component that matches that path. If a user is done with their interaction of the application, they can click the logout button to clear their session and are immediately redirected to the root page. 
+The menu at the side of the home page has links to various pages in the application, including a page for all the workspaces and a page for all of the bookings. All links will change the URL in the browser and render the component that matches that path. If a user is done with their interaction of the application, they can click the logout button to clear their session and are immediately redirected to the root page.
 
 ![Dwell-Logout](demo-material/dwell-logout.gif)
